@@ -1,0 +1,55 @@
+  <article class="section secondary-section " id="portfolio">
+            <section class="triangle"></section>
+            <section class="container">
+                <ol class="breadcrumb">
+                  <li><a href="index.html">Início</a></li>
+                  <li><a href="produtos.html">Categorias</a></li>
+                  <li class="active">{nome_categoria}</li>
+                </ol>
+                <div class=" title">
+                    <h1>{nome_categoria}</h1>
+                </div>
+                <!-- BEGIN BLOCK_PRODUTOS -->
+                <section id="single-project{numero_produto}">
+                    <div id="slidingDiv" class="toggleDiv row-fluid single-project">
+                        <div class="span6">
+                            <img src="images/iPhone.png" alt="project 1" />
+                        </div>
+                               <div class="span6">
+                            <div class="project-description">
+                                <div class="project-title clearfix">
+                                    <h3>IPhone 5S 16GB Cinza Espacial Tela Retina 4" Câmera de 8MP - Apple</h3>
+                                    <span class="show_hide close">
+                                        <i class="icon-cancel"></i>
+                                    </span>
+                                </div>
+                                <div class="project-info">
+                                    <h3>Valor: R$1239.00</h3>
+                                    <button type="submit" class="btn btn-default">Adicionar ao Carrinho</button>
+                                </div>
+                                <h3>Descrição do Produto</h3>
+                                <p> Com um design fino e elegante, o iPhone 5s traz recursos avançados por um preço excelente, apresentando tela Retina de 4 polegadas, chip A7 com arquitetura de 64 bits, sensor de impressão digital Touch ID, câmera iSight de 8MP, câmera FaceTime HD, 4G LTE e Wi-Fi*, iOS 8 e iCloud.</p>
+                            </div>
+                        </div>
+                    </div>
+			<!-- END BLOCK_PRODUTOS -->
+                    <ul id="portfolio-grid" class="thumbnails row">
+						<!-- BEGIN BLOCK_MINIATURAS -->
+                        <li class="span4 mix web">
+                            <div class="thumbnail">
+                                <img src="images/iPhone.png" alt="project 1">
+                                <a href="#single-project" class="more show_hide" rel="#slidingDiv">
+                                    <i class="icon-plus"></i>
+                                </a>
+                                <h3>{nome_produto}</h3>
+                                <p>{minidesc_produto}</p>
+                                <div class="mask"></div>
+                            </div>
+                        </li>
+                        <!-- END BLOCK_MINIATURAS -->
+                    </ul>
+                </div>
+            </section>
+            
+            
+        </article>
